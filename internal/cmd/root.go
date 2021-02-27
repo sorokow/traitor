@@ -52,6 +52,7 @@ var rootCmd = &cobra.Command{
 
 		baseLog.Printf("Assessing machine state...")
 		localState := state.New()
+		localState := state.New()
 		localState.HasPassword = promptForPassword
 		localState.Assess()
 
