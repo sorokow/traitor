@@ -49,6 +49,7 @@ var rootCmd = &cobra.Command{
 
 		ctx := context.Background()
 		baseLog := logger.New()
+		baseLog := logger.New()
 
 		baseLog.Printf("Assessing machine state...")
 		localState := state.New()
